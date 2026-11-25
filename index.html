@@ -1,11 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
   <head>
     <meta charset="UTF-8" />
-    <title>protfolio นิธิโชติ พานศรี</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>เว็บไซต์ของนิธิโชติ</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="min-h-screen bg-slate-50 text-slate-800">
+    <nav class="bg-slate-900 text-white shadow">
+      <div class="max-w-5xl mx-auto flex items-center justify-between px-6 py-4">
+        <span class="text-xl font-bold">เว็บไซต์ของนิธิโชติ</span>
+        <ul class="flex gap-6">
+          <li><a href="#/" data-link class="nav-link transition">Home</a></li>
+          <li><a href="#/about" data-link class="nav-link transition">About</a></li>
+          <li><a href="#/contact" data-link class="nav-link transition">Contact</a></li>
+          <li><a href="#/admin" data-link class="nav-link transition">Admin</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main id="app" class="max-w-5xl mx-auto px-6 py-10"></main>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
